@@ -2,12 +2,11 @@
 
 class Post extends CI_Model {
 
-    public function getAll()
-    {
-       $query=$this->db->get('Posts');
-
-        return $query->result();
-    }
+protected $_table = 'Posts';
+function getAll()
+{
+    return $this->db->get($this->_table)->result();
+}
 
 }
 
