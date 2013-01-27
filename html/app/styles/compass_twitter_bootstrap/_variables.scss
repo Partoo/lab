@@ -11,7 +11,7 @@
 // -------------------------
 $black:                 #000 !default;
 $grayDarker:            #222 !default;
-$grayDark:              #333 !default;
+$grayDark:              #434343 !default;
 $gray:                  #555 !default;
 $grayLight:             #999 !default;
 $grayLighter:           #eee !default;
@@ -29,27 +29,40 @@ $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
 
+// Partoo added colors
+// -------------------------
+$iBlue:                  #01c6fd !default;
+$iOrange:            #fd7001 !default;
+$iRed:                  #cc6666 !default;
+$iBgImgPath:       "../images/gray2.jpg";
+$iSaw:                     "../images/footer-bg.png";
+
+//Theme color by Partoo
+$mainColor:$iRed;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        $white !default;
+$bodyBackground:        $grayLighter !default;
 $textColor:             $grayDark !default;
 
 
 // Links
 // -------------------------
-$linkColor:             #08c !default;
-$linkColorHover:        darken($linkColor, 15%) !default;
+// $linkColor:             #08c !default;
+$linkColor:             $gray !default;
+// $linkColorHover:        darken($linkColor, 15%) !default;
+$linkColorHover:        darken($mainColor, 15%) !default;
 
 
 // Typography
 // -------------------------
 $sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
-$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$monoFontFamily:        "Microsoft YaHei",Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$webFonts:                  "Walter Turncoat", cursive;
 
 $baseFontSize:          14px !default;
-$baseFontFamily:        $sansFontFamily !default;
+$baseFontFamily:        $monoFontFamily !default;
 $baseLineHeight:        20px !default;
 $altFontFamily:         $serifFontFamily !default;
 
@@ -133,8 +146,8 @@ $zindexModal:             1050 !default;
 
 // Sprite icons path
 // -------------------------
-$iconSpritePath:          "glyphicons-halflings.png" !default;
-$iconWhiteSpritePath:     "glyphicons-halflings-white.png" !default;
+$iconSpritePath:          "../images/glyphicons-halflings.png" !default;
+$iconWhiteSpritePath:     "../images/glyphicons-halflings-white.png" !default;
 
 
 // Input placeholder text color
@@ -176,7 +189,7 @@ $navbarInverseBackgroundHighlight:       #222222 !default;
 $navbarInverseBorder:                    #252525 !default;
 
 $navbarInverseText:                      $grayLight !default;
-$navbarInverseLinkColor:                 $grayLight !default;
+$navbarInverseLinkColor:                 $grayLighter !default;
 $navbarInverseLinkColorHover:            $white !default;
 $navbarInverseLinkColorActive:           $navbarInverseLinkColorHover !default;
 $navbarInverseLinkBackgroundHover:       transparent !default;

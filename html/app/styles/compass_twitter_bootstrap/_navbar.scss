@@ -24,9 +24,10 @@
   padding-left:  20px;
   padding-right: 20px;
   @include gradient-vertical($navbarBackgroundHighlight, $navbarBackground);
-  border: 1px solid $navbarBorder;
-  @include border-radius(4px);
-  @include box-shadow(0 1px 4px rgba(0,0,0,.065));
+  //Partoo deleted navbar-inner border
+  //border: 1px solid $navbarBorder;
+  @include border-radius(0px);
+  @include box-shadow(0 2px 5px rgba(0,0,0,.095));
 }
 
 // Set width to auto for default container
@@ -233,7 +234,8 @@
   padding: (($navbarHeight - $baseLineHeight) / 2) 15px (($navbarHeight - $baseLineHeight) / 2);
   color: $navbarLinkColor;
   text-decoration: none;
-  text-shadow: 0 1px 0 $navbarBackgroundHighlight;
+  //Partoo 删除字体
+  // text-shadow: 0 1px 0 $navbarBackgroundHighlight;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -242,8 +244,8 @@
 // Hover
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: $navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
-  color: $navbarLinkColorHover;
+  background-color: $mainColor; // "transparent" is default to differentiate :hover from .active
+  color: $white;
   text-decoration: none;
 }
 
@@ -251,12 +253,12 @@
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: $navbarLinkColorActive;
+  color: $white;
   text-decoration: none;
-  background-color: $navbarLinkBackgroundActive;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.125);
-     -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.125);
-          box-shadow: inset 0 3px 8px rgba(0,0,0,.125);
+  background-color: $mainColor;
+  -webkit-box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
+     -moz-box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
+          box-shadow: inset 0 3px 10px rgba(0,0,0,.25);
 }
 
 // Navbar button for toggling navbar items in responsive layouts

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+       <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -14,66 +14,133 @@
 
 
         <link rel="stylesheet" href="styles/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
         <script src="scripts/vendor/modernizr.min.js"></script>
     </head>
     <body>
-
-<!-- NavBar start -->
-    <div class="navbar">
-        <div class="navbar-inner">
-            <div class="container" style="width: auto;">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a class="brand" href="#">Project name</a>
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="nav-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="navbar-search pull-left" action="">
-                        <input type="text" class="search-query span2" placeholder="Search">
-                    </form>
-                    <ul class="nav pull-right">
-                        <li><a href="#">Link</a></li>
-                        <li class="divider-vertical"></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- /.nav-collapse -->
-            </div>
-        </div><!-- /navbar-inner -->
-    </div>
-<!-- NavBar start -->
-
-
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+            <p class="chromeframe">您还在使用着十几年前的浏览器产品。<a href="http://browsehappy.com/">即刻升级浏览器</a> 或者<a href="http://www.google.com/chromeframe/?redirect=true">安装 Google Chrome Frame</a> 让网页浏览安全又惬意！</p>
         <![endif]-->
+        <!-- 头部开始 -->
+
+        <div class="navbar-inverse">
+                <div class="container-fluid grayBg">
+                    <div class="row-fluid">
+                        <div class="span7 brand">
+                            <h1 class="logoFont">*薄码日子</h1>
+                            <p class="offset1">Hello,world!</p>
+                        </div>
+
+                        <div class="span5">
+                            <ul class="nav nav-list pull-right">
+                                <li ><a href="# ">首页</a></li>
+                                <li><a href="# ">TAGS</a></li>
+                                <li><a href="# ">RSS</a></li>
+                                <li><a href="# ">联系</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="navbar topRed">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">RSS</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 头部结束 -->
+
+        <!-- 主体开始 -->
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <!-- Sidebar开始 -->
+
+                <div class="span3">
+                    <div class="iBoxTitle">
+                        公告
+                    </div>
+                    <div class="iBox">
+                              本博客未经许可，不得转载。<br/>其他事由请联系partoo#163.com
+                    </div>
+
+                    <div class="iBoxTitle">
+                        <a href="#"><i class="icon-pencil"></i> Edit</a>
+                    </div>
+                    <div class="iBox">
+                              <ul class="sideList">
+                                  <li><a href="#">PHP在windwos下的配置</a></li>
+                                  <li><a href="#">YEOMAN完美工作流</a></li>
+                                  <li><a href="#">让CI像Ruby on Rails一样飞驰</a></li>
+                                  <li><a href="#">PHP在windwos下的配置</a></li>
+                                  <li><a href="#">PHP在windwos下的配置</a></li>
+                                  <li><a href="#">PHP在windwos下的配置</a></li>
+                              </ul>
+                    </div>
+
+                    <div class="iBoxTitle">
+                       最新评论
+                    </div>
+                    <div class="iBox">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eligendi dolores sint amet explicabo rem laudantium quam et quidem voluptas delectus velit odit voluptatem ea ipsa repellendus animi quibusdam adipisci iusto debitis. Minus ratione incidunt perferendis asperiores optio repudiandae quos dolor sunt laboriosam vitae.
+                    </div>
+
+                </div>
+                <!-- Sidebar结束 -->
+
+
+                <div class="span9">
+                    <div class="container-fluid whiteBg">
+                    <!--  -->
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eligendi dolores sint amet explicabo rem laudantium quam et quidem voluptas delectus velit odit voluptatem ea ipsa repellendus animi quibusdam adipisci iusto debitis. Minus ratione incidunt perferendis asperiores optio repudiandae quos dolor sunt laboriosam vitae.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主体结束-->
+        <!--FOOTER START  -->
+        <footer class="footer footerSaw">
+            <div class="container">
+                <div class="row footer_box">
+                         <address>
+                  <strong>Twitter, Inc.</strong><br>
+                  795 Folsom Ave, Suite 600<br>
+                  San Francisco, CA 94107<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+                  <strong>Full Name</strong><br>
+                  <a href="mailto:#">first.last@example.com</a>
+            </address>
+                </div>
+                <div class="row footer_box">
+                         <address>
+                  <strong>Twitter, Inc.</strong><br>
+                  795 Folsom Ave, Suite 600<br>
+                  San Francisco, CA 94107<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+                  <strong>Full Name</strong><br>
+                  <a href="mailto:#">first.last@example.com</a>
+            </address>
+                </div>
+            </div>
+        </footer>
+        <!--FOOTER END  -->
+
+
+
 
         <!-- Add your site or application content here -->
 
