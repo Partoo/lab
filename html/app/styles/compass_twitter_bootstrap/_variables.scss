@@ -36,6 +36,8 @@ $iOrange:            #fd7001 !default;
 $iRed:                  #cc6666 !default;
 $iPurple:                #91528b !default;
 $iGreen:               #c9e74b !default;
+$elegantBlue:       #475f77 !default;
+$elegantQ:            #6b8e94 !default;
 $iBgImgPath:       "../images/gray2.jpg";
 $iSaw:                     "../images/footer-bg.png";
 
@@ -58,10 +60,11 @@ $linkColorHover:        darken($mainColor, 15%) !default;
 
 // Typography
 // -------------------------
-$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif,"宋体" !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif,"宋体" !default;
 $monoFontFamily:        "Microsoft YaHei",Monaco, Menlo, Consolas, "Courier New", monospace !default;
-$webFonts:                  "Walter Turncoat", cursive;
+$webFontsHand:                  "Walter Turncoat", cursive;
+$webFontsElegant:               "Baumans", cursive;
 
 $baseFontSize:          14px !default;
 $baseFontFamily:        $monoFontFamily !default;

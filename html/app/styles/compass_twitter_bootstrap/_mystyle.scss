@@ -4,7 +4,7 @@
 .whiteBg{background-color:$white}
 .patternBg_light{background:url($iBgImgPath) repeat}
 .brand h1{height:36px;line-height:36px}
-.brand p {font-family:$webFonts;font-size:16px}
+.brand p {font-family:$webFontsHand;font-size:16px}
 .footerSaw{background:url($iSaw) repeat-x}
 .footer_box{padding-top:30px;color:$white}
 .right_shadow{border-right:1px dotted $grayLight}
@@ -23,8 +23,41 @@ border-bottom-left-radius: 4px;
 padding: 8px;
 background-color: $mainColor;
 color:$white;
-font-size:18px;
+font-size:16px;
 border-top-left-radius:4px;
 border-top-right-radius: 4px;
 // border: 1px solid #E1E1E8;
 }
+.iBoxTitle i{padding-right:8px}
+.iBox ul{margin:0}
+.iBox li{background: url(http://elegantthemes.com/preview/Trim/wp-content/themes/Trim/images/sidebar_bullet.png) no-repeat left 8px;
+padding: 3px 0 3px 20px;}
+
+.entry{padding: 0 0 35px 90px;position: relative;}
+.post-meta {
+position: absolute;
+top: 0;
+left: -20px;
+top: -7px;
+display: block;
+background:lighten($mainColor,10%);
+color:white;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+-webkit-border-radius: 60px;
+-moz-border-radius: 60px;
+border-radius: 60px;
+width: 60px;
+height: 60px;
+line-height: 41px;
+margin:20px 20px 0 15px;
+}
+
+.post{padding:0 0 20px 0;border-bottom:1px dashed $grayLight}
+.title_img{position:fixed;padding:5px;border:1px solid $grayLighter;width:150px;height:100px;max-width: none; max-height: none;}
+.container-fluid>.summary{margin-left:180px}
+.main_title{font-family:$webFontsElegant,$monoFontFamily}
+.meta{font-family:$serifFontFamily;color:$grayLight}
+.meta a{color:$grayLight;text-decoration:underline}
