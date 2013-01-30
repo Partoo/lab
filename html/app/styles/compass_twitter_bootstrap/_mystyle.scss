@@ -35,12 +35,7 @@ padding: 3px 0 3px 20px;}
 
 .entry{padding: 0 0 35px 90px;position: relative;}
 .post-meta {
-position: absolute;
-top: 0;
-left: -20px;
-top: -7px;
-display: block;
-background:lighten($mainColor,10%);
+background:lighten($mainColor,2%);
 color:white;
 font-size: 11px;
 text-transform: uppercase;
@@ -52,12 +47,13 @@ border-radius: 60px;
 width: 60px;
 height: 60px;
 line-height: 41px;
-margin:20px 20px 0 15px;
+margin: 10px 0 0 10px;
 }
-
+.article_box{padding:0 10px 20px 0}
 .post{padding:0 0 20px 0;border-bottom:1px dashed $grayLight}
 .title_img{position:fixed;padding:5px;border:1px solid $grayLighter;width:150px;height:100px;max-width: none; max-height: none;}
 .container-fluid>.summary{margin-left:180px}
-.main_title{font-family:$webFontsElegant,$monoFontFamily}
+.main_title{font-family:$webFontsElegant,$monoFontFamily;}
 .meta{font-family:$serifFontFamily;color:$grayLight}
 .meta a{color:$grayLight;text-decoration:underline}
+
